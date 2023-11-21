@@ -1,0 +1,40 @@
+body{
+    background:linear-gradient(to bottom ,aliceblue,rgb(247, 246, 194),aliceblue);
+    font-family: sans-serif;
+}
+
+.first-div{
+    margin-top: 5%;
+    margin-left: 25%;
+
+width: 604px;
+height: 400px;
+}
+
+.divcontent{
+    width: 300px;
+   
+    background-color: rgb(235, 218, 124);
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #BFBFBF;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    transition: transform 1s;
+}
+.divcontent:hover{
+    transform: scale(1.2);
+   
+    transform:  scale(1) translateY(-100px);
+    
+}
+.div-1{
+    transform: rotate(10deg);
+    float: left;
+}
+.div-2{
+    transform: rotate(-10deg);
+    float: left;
+}
+.last-div{
+    margin-bottom: 5%;
+}

@@ -1,0 +1,46 @@
+body{
+    background:linear-gradient(to bottom ,aliceblue,rgb(247, 246, 194),aliceblue);  
+}
+.div{
+    display: flex;
+    width: 800px;
+    border: 1px solid #BFBFBF;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    height: 300px;
+    margin-top: 30px;
+   margin-left:20%;
+  
+   border-radius: 10px;
+  
+
+}
+.div:hover{
+    transform: rotate(-10deg);
+}
+
+.picture{
+width: 400px;
+height: 300px;
+border-radius: 10px;
+
+}
+.self-img{
+    width: 400px;
+    height: 300px; 
+    border-radius: 10px;
+}
+.detail{
+    width: 400px;
+    height: 300px;
+ 
+    border-radius: 10px;
+    text-align: center;
+ 
+    box-sizing: border-box;
+    padding: 10% 2%;
+    display: inline-block;
+
+}
+.last-div{
+    margin-bottom: 20px;
+}

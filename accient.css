@@ -1,0 +1,52 @@
+
+.div-img{
+ width:250px;
+ height:250px;  
+  text-align: center; 
+  margin-top: 10px; 
+}
+.self-img{
+   width: 180px;
+   height: 180px;
+   border: 10px solid rgb(108, 20, 20);
+   border-radius: 100%;
+  margin-top: 9%;
+}
+.self-img:hover{
+    transform: scale(1.1);
+    
+}
+
+.same-div{
+    display: inline-block;
+    color: rgb(37, 87, 13);
+  
+}
+.div{
+    display: flex;
+    justify-content: center;
+
+}
+
+.details{
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+    visibility: hidden;
+}
+.div-four{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
